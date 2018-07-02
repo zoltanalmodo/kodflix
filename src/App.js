@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import cover_001 from './cover_001.jpg';
+import cover_002 from './cover_002.jpg';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Hello !</h1>
-        </header>
-        <p className="App-intro">
-          Hey let's get started! <code>src/App.js</code> and save to reload.
-        </p>
+
+          <img src={cover_001} className="image-cover" alt="cover_001"/>
+          <img src={cover_002} className="image-cover" alt="cover_002"/>
+
       </div>
     );
   }
