@@ -2,16 +2,23 @@
   text-align: center;
 }
 
+h1 {
+  margin: 30px;
+}
+
 .container_image_cover_row {
   display: flex;
   justify-content: space-around;
-  
-
 }
 
 .container_image_cover_row_item {
-  margin: 30px;
   flex: 1;
+  flex-basis: 100%;
+}
+
+.container_image_cover_row_item img {
+  height: 100%;
+  width: 100%;
 }
 
 .image-cover {
