@@ -18,24 +18,44 @@ class App extends Component {
         <div className="container_image_cover_row">
           <div className="container_image_cover_row_item">
             <img src={black_mirror} alt="black_mirror"/>
+            <div className='container_image_cover_row_item_overlay'>
+              <h1>Black Mirror</h1>
+            </div>
           </div>
           <div className="container_image_cover_row_item">
             <img src={breaking_bad} alt="breaking_bad"/>
+            <div className='container_image_cover_row_item_overlay'>
+              <h1>Breaking Bad</h1>
+            </div>
           </div>
           <div className="container_image_cover_row_item">
             <img src={death_note} alt="death_note"/>
+            <div className='container_image_cover_row_item_overlay'>
+              <h1>Death Note</h1>
+            </div>
           </div>
         </div>
+        
+{/* THIS IS A COMMENT */}
 
         <div className="container_image_cover_row">
           <div className="container_image_cover_row_item">
             <img src={game_of_thrones} alt="game_of_thrones"/>
+            <div className='container_image_cover_row_item_overlay'>
+              <h1>Game of Thrones</h1>
+            </div>
           </div>
           <div className="container_image_cover_row_item">
           <img src={the_walking_dead} alt="the_walking_dead"/>
+          <div className='container_image_cover_row_item_overlay'>
+            <h1>The Walking Dead</h1>
+          </div>
           </div>
           <div className="container_image_cover_row_item">
           <img src={the_wire} alt="the_wire"/>
+          <div className='container_image_cover_row_item_overlay'>
+            <h1>The Wire</h1>
+          </div>
           </div>
         </div>
 

@@ -6,14 +6,24 @@ h1 {
   margin: 30px;
 }
 
+.image-cover {
+  width: 100%;
+}
+
 .container_image_cover_row {
   display: flex;
   justify-content: space-around;
+  align-items: stretch;
 }
 
 .container_image_cover_row_item {
   flex: 1;
   flex-basis: 100%;
+  position: relative;
+}
+
+.container_image_cover_row_item:hover .container_image_cover_row_item_overlay {
+  display: block;
 }
 
 .container_image_cover_row_item img {
@@ -21,6 +31,26 @@ h1 {
   width: 100%;
 }
 
-.image-cover {
+.container_image_cover_row_item_overlay {
+  display: none;
+  position: absolute;
+  opacity: 0.8;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
   width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+/* === media quieries === */
+
+@media only screen and (max-width: 640px) {
+  .container_image_cover_row {
+    display: block;
+  }
+
 }
