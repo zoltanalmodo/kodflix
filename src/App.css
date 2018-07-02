@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.container_image_cover_row {
+  display: flex;
+  justify-content: space-around;
+  
+
+}
+
+.container_image_cover_row_item {
+  margin: 30px;
+  flex: 1;
+}
+
 .image-cover {
   width: 100%;
 }
