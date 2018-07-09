@@ -6,7 +6,7 @@ export default class Cover extends React.Component {
 
     render() {
         return (
-            <Link to='/details'>
+            <Link to={this.props.movie_url_db}>
                 <div className='cover'>
 
                     <img src={this.props.image} alt={this.props.alt} />

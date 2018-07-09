@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import Gallery from './gallery/Gallery.js'
+import Gallery from './gallery/Gallery.js';
 import './gallery/Gallery.css';
-import Details from './details/Details.js'
+import Details from './details/Details.js';
 
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ export default class App extends Component {
         <Router>
           <div>
             <Route exact path="/" component={Gallery} />
-            <Route path="/details" component={Details} />
+            <Route path="/:movie_url" component={Details} />
           </div>
         </Router>
 
