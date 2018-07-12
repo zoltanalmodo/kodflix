@@ -1,16 +1,24 @@
 import React from 'react';
 import './App.css';
 
-import Gallery from './gallery/Gallery.js';
+import Gallery from './gallery/Gallery';
 import './gallery/Gallery.css';
-import Details from './details/Details.js';
+import Details from './details/Details';
 
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-
-
+import Test from './gallery/Test';
+// hello norbi
 export default class App extends React.Component {
-  render() {
+
+  render () {
+    return (
+    <Test />
+    )
+  }
+
+  
+  xrender() {
     return (
       <div className='App'>
         
