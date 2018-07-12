@@ -1,9 +1,9 @@
 import React from 'react';
 import './Gallery.css';
 
-import Cover from '../cover/Cover.js';
+import Cover from '../cover/Cover';
 
-import getGallery from './getGallery.js';
+import getGallery from './getGallery';
 
 export default class Gallery extends React.Component {
 
@@ -24,7 +24,7 @@ export default class Gallery extends React.Component {
                         )
                     })
 
-
+                    
 
                 }
             </div>
