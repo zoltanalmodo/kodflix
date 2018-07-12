@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
 import Gallery from './gallery/Gallery.js';
 import './gallery/Gallery.css';
 import Details from './details/Details.js';
 
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <div className='App'>
@@ -17,7 +17,7 @@ export default class App extends Component {
         <Router>
           <div>
             <Route exact path="/" component={Gallery} />
-            <Route path="/:movie_url" component={Details} />
+            <Route path="/:zoltan" component={Details} />
           </div>
         </Router>
 

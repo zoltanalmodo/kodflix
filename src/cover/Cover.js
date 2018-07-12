@@ -1,6 +1,6 @@
 import React from 'react';
 import './Cover.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default class Cover extends React.Component {
 
