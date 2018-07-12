@@ -8,7 +8,7 @@ import Details from './details/Details';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Test from './gallery/Test';
-
+// hello norbi
 export default class App extends React.Component {
 
   render () {
