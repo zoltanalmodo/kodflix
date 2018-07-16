@@ -9,39 +9,39 @@ import pink_elephant_plane from '../cover/images/pink_elephant_plane.png';
 export default function getGallery() {
     return [
         {
-            id: 'dinosaur_walkman_eye_ID',
+            id: 'ID_dinosaur_walkman_eye',
             image: dinosaur_walkman_eye,
-            title: 'Dinosaur Walkman Eye Title',
+            title: 'TITLE: Dinosaur Walkman Eye',
             text: 'dinosaur_walkman_eye: DESCRIPTION text',
         },
         {
-            id: 'blue_ufo_plane_ID',
+            id: 'ID_blue_ufo_plane',
             image: blue_ufo_plane,
-            title: 'Blue Ufo Plane Title',
+            title: 'TITLE: Blue Ufo Plane',
             text: 'blue_ufo_plane: DESCRIPTION text',
         },
         {
-            id: 'elephant_king_jelly_ID',
+            id: 'ID_elephant_king_jelly',
             image: elephant_king_jelly,
-            title: 'Elephant King Jelly Title',
+            title: 'TITLE: Elephant King Jelly',
             text: 'elephant_king_jelly: DESCRIPTION text',
         },
         {
-            id: 'green_alien_spaceship_ID',
+            id: 'ID_green_alien_spaceship',
             image: green_alien_spaceship,
-            title: 'Green Alien Spaceship Title',
+            title: 'TITLE: Green Alien Spaceship',
             text: 'green_alien_spaceship: DESCRIPTION text',
         },
         {
-            id: 'outer_space_jelly_ID',
+            id: 'ID_outer_space_jelly',
             image: outer_space_jelly,
-            title: 'Outer Space Jelly Title',
+            title: 'TITLE: Outer Space Jelly',
             text: 'outer_space_jelly: DESCRIPTION text',
         },
         {
-            id: 'pink_elephant_plane_ID',
+            id: 'ID_pink_elephant_plane',
             image: pink_elephant_plane,
-            title: 'Pink Elephant Plane Title',
+            title: 'TITLE: Pink Elephant Plane',
             text: 'pink_elephant_plane: DESCRIPTION text',
         },
     ];
