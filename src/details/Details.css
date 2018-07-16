@@ -1,7 +1,15 @@
+
 .details {
     color: white;
 }
 
-a {
+.home_button{
+    text-decoration: none;
     color: cyan;
 }
+
+.home_button:hover {
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+   }

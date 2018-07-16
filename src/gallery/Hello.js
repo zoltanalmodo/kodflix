@@ -13,11 +13,6 @@ export default class Hello extends React.Component {
         setTimeout(() => {this.changeUserName()}, 3000);
     }
 
-    
-
-        
-    
-
     changeUserName() {
         this.setState({
             message: 'Coming soon! :)',
@@ -27,9 +22,7 @@ export default class Hello extends React.Component {
     render() {
         return (
             <h1>
-                
                 {this.state.message}
-                
             </h1>
         )
     }

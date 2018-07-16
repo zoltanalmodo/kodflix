@@ -6,56 +6,43 @@ import green_alien_spaceship from '../cover/images/green_alien_spaceship.png';
 import outer_space_jelly from '../cover/images/outer_space_jelly.png'
 import pink_elephant_plane from '../cover/images/pink_elephant_plane.png';
 
-
 export default function getGallery() {
     return [
         {
+            id: 'dinosaur_walkman_eye_ID',
             image: dinosaur_walkman_eye,
-            title: 'dinosaur_walkman_eye',
-            id: 'dinosaur_walkman_eye',
-            movie_url_db: 'dinosaur_walkman_eye',
-            alt: 'dinosaur_walkman_eye',
-            text: 'dinosaur_walkman_eye: DESCRIPTION',
+            title: 'Dinosaur Walkman Eye Title',
+            text: 'dinosaur_walkman_eye: DESCRIPTION text',
         },
         {
+            id: 'blue_ufo_plane_ID',
             image: blue_ufo_plane,
-            title: 'blue_ufo_plane',
-            id: 'blue_ufo_plane',
-            movie_url_db: 'blue_ufo_plane',
-            alt: 'blue_ufo_plane',
-            text: 'blue_ufo_plane: DESCRIPTION',
+            title: 'Blue Ufo Plane Title',
+            text: 'blue_ufo_plane: DESCRIPTION text',
         },
         {
+            id: 'elephant_king_jelly_ID',
             image: elephant_king_jelly,
-            title: 'elephant_king_jelly',
-            id: 'elephant_king_jelly',
-            movie_url_db: 'elephant_king_jelly',
-            alt: 'elephant_king_jelly',
-            text: 'elephant_king_jelly: DESCRIPTION',
+            title: 'Elephant King Jelly Title',
+            text: 'elephant_king_jelly: DESCRIPTION text',
         },
         {
+            id: 'green_alien_spaceship_ID',
             image: green_alien_spaceship,
-            title: 'green_alien_spaceship',
-            id: 'green_alien_spaceship',
-            movie_url_db: 'green_alien_spaceship',
-            alt: 'green_alien_spaceship',
-            text: 'green_alien_spaceship: DESCRIPTION',
+            title: 'Green Alien Spaceship Title',
+            text: 'green_alien_spaceship: DESCRIPTION text',
         },
         {
+            id: 'outer_space_jelly_ID',
             image: outer_space_jelly,
-            title: 'outer_space_jelly',
-            id: 'outer_space_jelly',
-            movie_url_db: 'outer_space_jelly',
-            alt: 'outer_space_jelly',
-            text: 'outer_space_jelly: DESCRIPTION',
+            title: 'Outer Space Jelly Title',
+            text: 'outer_space_jelly: DESCRIPTION text',
         },
         {
+            id: 'pink_elephant_plane_ID',
             image: pink_elephant_plane,
-            title: 'pink_elephant_plane',
-            id: 'pink_elephant_plane',
-            movie_url_db: 'pink_elephant_plane',
-            alt: 'pink_elephant_plane',
-            text: 'pink_elephant_plane: DESCRIPTION',
+            title: 'Pink Elephant Plane Title',
+            text: 'pink_elephant_plane: DESCRIPTION text',
         },
     ];
 

@@ -1,8 +1,6 @@
 import React from 'react';
 import './Gallery.css';
-
 import Cover from '../cover/Cover';
-
 import getGallery from './getGallery';
 
 export default class Gallery extends React.Component {
@@ -18,14 +16,9 @@ export default class Gallery extends React.Component {
                                 key={cover.id}
                                 id={cover.id}
                                 title={cover.title}
-                                alt={cover.alt}
-                                movie_url_db={cover.movie_url_db}
                             />
                         )
                     })
-
-                    
-
                 }
             </div>
         )        
