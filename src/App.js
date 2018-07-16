@@ -3,7 +3,10 @@ import './App.css';
 import Gallery from './gallery/Gallery';
 import './gallery/Gallery.css';
 import Details from './details/Details';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import NotFound from './not_found/NotFound';
+
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 // import Test from './gallery/Test';
 
@@ -14,16 +17,17 @@ export default class App extends React.Component {
   //   <Test />
   //   )
   // }
-    
+
   render() {
     return (
       <div className='App'>
 
         <Router>
-          <div>
-            <Route exact path="/" component={Gallery} />
-            <Route path="/:handle" component={Details} />
-          </div>
+            <Switch>
+              <Route exact path="/" component={Gallery} />
+              <Route path="/NotFound" component={NotFound} />
+              <Route path="/:handle" component={Details} />
+            </Switch>
         </Router>
 
       </div>
