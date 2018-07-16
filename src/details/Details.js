@@ -8,7 +8,7 @@ export default class Details extends React.Component {
     constructor() {
         super();
         this.state = {
-            message: '(Hello, this will be the details page for each Movie & TV show :)',
+            message: 'Hello, more details...',
             drawing: {}
 
         }
@@ -26,7 +26,7 @@ export default class Details extends React.Component {
 
     changeMessage() {
         this.setState({
-            message: 'Coming soon! :)',
+            message: 'coming soon! :)',
         });
     }
 
@@ -46,7 +46,7 @@ export default class Details extends React.Component {
                         {this.state.message}
                     </h1>
                     <h1>
-                        title: {this.state.drawing.title}
+                        {this.state.drawing.title}
                     </h1>
                     <Link to={'/'}>
                         <h1 className='home_button'>
