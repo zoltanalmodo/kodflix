@@ -7,16 +7,7 @@ import NotFound from './not_found/NotFound';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-
-// import Test from './gallery/Test';
-
 export default class App extends React.Component {
-
-  // xrender () {
-  //   return (
-  //   <Test />
-  //   )
-  // }
 
   render() {
     return (

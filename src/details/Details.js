@@ -8,21 +8,23 @@ export default class Details extends React.Component {
     constructor() {
         super();
         this.state = {
-            message: 'Hello, more details...',
+            message: 'Hi, more details...',
             drawing: {}
 
         }
     }
 
     componentDidMount() {
-        setTimeout(() => { this.changeMessage() }, 3000);
-        this.setState({
-            drawing: getGallery().find(item => this.props.match.params.handle === item.id)
-        });
+        setTimeout(() => {this.changeMessage() }, 3000);
+
+        let drawing = getGallery().find(item => this.props.match.params.handle === item.id);
+        this.setState({drawing});
+
+        // this.setState({
+        //     drawing: getGallery().find(item => this.props.match.params.handle === item.id)
+        // });
+
     };
-
-
-
 
     changeMessage() {
         this.setState({
@@ -32,29 +34,41 @@ export default class Details extends React.Component {
 
     render() {
 
-
-
-
-        if (this.state.drawing === undefined) {
-            return <Redirect to='/NotFound' />
-        }
-        else {
-
+        if (this.state.drawing) {
             return (
-                <div className='Details' >
-                    <h1>
-                        {this.state.message}
-                    </h1>
-                    <h1>
-                        {this.state.drawing.title}
-                    </h1>
-                    <Link to={'/'}>
-                        <h1 className='home_button'>
-                            back
+                <div className='details' >
+
+                    <div class='details_left'>
+
+                        <h1 class='details_message'>
+                            {this.state.message}
                         </h1>
-                    </Link>
+                        <h1 class='details_title'>
+                            {this.state.drawing.title}
+                        </h1>
+                        <h1 class='details_synopsis'>
+                                {this.state.drawing.synopsis}
+                        </h1>
+                        <Link to={'/'}>
+                            <h1 className='home_button'>
+                                back
+                            </h1>
+                        </Link>
+                        
+                    </div>
+
+                    <div class='details_right'>
+                        <div class='details_image'>
+                            <img src={this.state.drawing.image} />
+                        </div>
+                    </div>
+                    
                 </div>
             )
+        }
+        else {
+            return <Redirect to='/NotFound' />
+            
         }
     }
 }

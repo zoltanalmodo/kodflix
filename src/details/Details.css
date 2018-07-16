@@ -1,15 +1,66 @@
 
 .details {
     color: white;
+    margin: 10px 110px 0px 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details_left {
+    width: 45%;
+    text-align: left;
+}
+
+.details_message {
+    font-size: 33px;
+    color: pink;
+}
+
+.details_title {
+    font-size: 44px;
+    color: white;
+}
+
+.details_synopsis {
+    font-size: 22px;
+    color: grey;
 }
 
 .home_button{
     text-decoration: none;
-    color: cyan;
+    color: lightblue;
+    font-size: 22px;
 }
 
 .home_button:hover {
     text-decoration: none;
-    color: red;
+    color: orange;
     cursor: pointer;
-   }
+}
+
+.details_right {
+    width: 45%;
+}
+
+.details_image img {
+    max-width: 100%;
+}
+
+/* ................................................................................................... */
+/* --------------------------------------- MEDIA QUERIES START --------------------------------------- */
+/* ................................................................................................... */
+
+@media screen and (max-width: 640px) {
+
+    .details{
+        display: block;
+        margin: 10px 0px 0px 0px;
+    }
+    .details_left {
+        width: 90%;
+        text-align: left;
+    }
+    .details_right {
+        width: 100%;
+    }
+}

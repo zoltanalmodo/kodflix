@@ -1,13 +1,10 @@
 body {
-  background-color: rgb(50, 50, 50);
+  background-color: rgb(44, 44, 44);
+  text-align: center;
+  color: red;
 }
 
-h1 {
+/* h1 {
   color: white;
-  text-align: center;
-}
-
-
-.App {
-  text-align: center;
-}
+  text-align: center;  
+} */

@@ -11,39 +11,68 @@ export default function getGallery() {
         {
             id: 'ID_dinosaur_walkman_eye',
             image: dinosaur_walkman_eye,
-            title: 'TITLE: Dinosaur Walkman Eye',
-            text: 'dinosaur_walkman_eye: DESCRIPTION text',
+            title: 'Dinosaur Walkman Eye',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
         {
             id: 'ID_blue_ufo_plane',
             image: blue_ufo_plane,
-            title: 'TITLE: Blue Ufo Plane',
-            text: 'blue_ufo_plane: DESCRIPTION text',
+            title: 'Blue Ufo Plane',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
         {
             id: 'ID_elephant_king_jelly',
             image: elephant_king_jelly,
-            title: 'TITLE: Elephant King Jelly',
-            text: 'elephant_king_jelly: DESCRIPTION text',
+            title: 'Elephant King Jelly',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
         {
             id: 'ID_green_alien_spaceship',
             image: green_alien_spaceship,
-            title: 'TITLE: Green Alien Spaceship',
-            text: 'green_alien_spaceship: DESCRIPTION text',
+            title: 'Green Alien Spaceship',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
         {
             id: 'ID_outer_space_jelly',
             image: outer_space_jelly,
-            title: 'TITLE: Outer Space Jelly',
-            text: 'outer_space_jelly: DESCRIPTION text',
+            title: 'Outer Space Jelly',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
         {
             id: 'ID_pink_elephant_plane',
             image: pink_elephant_plane,
-            title: 'TITLE: Pink Elephant Plane',
-            text: 'pink_elephant_plane: DESCRIPTION text',
+            title: 'Pink Elephant Plane',
+            synopsis: `
+                This is a drawing of three users combined together.
+                The drawing could have been done by one user only
+                but they choose to share their parts and create a
+                unique character.
+            `,
         },
     ];
-
 }
