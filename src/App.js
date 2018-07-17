@@ -12,15 +12,13 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='App'>
-
         <Router>
-            <Switch>
-              <Route exact path="/" component={Gallery} />
-              <Route path="/NotFound" component={NotFound} />
-              <Route path="/:handle" component={Details} />
-            </Switch>
+          <Switch>
+            <Route exact path="/" component={Gallery} />
+            <Route path="/NotFound" component={NotFound} />
+            <Route path="/:handle" component={Details} />
+          </Switch>
         </Router>
-
       </div>
     );
   }

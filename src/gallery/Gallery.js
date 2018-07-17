@@ -21,8 +21,8 @@ export default class Gallery extends React.Component {
                     })
                 }
             </div>
-        )        
-    }   
+        )
+    }
 }
-            
-            
+
+
