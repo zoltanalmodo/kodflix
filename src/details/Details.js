@@ -32,14 +32,14 @@ export default class Details extends React.Component {
         if (this.state.drawing) {
             return (
                 <div className='details' >
-                    <div class='details_left'>
-                        <h1 class='details_message'>
+                    <div className='details_left'>
+                        <h1 className='details_message'>
                             {this.state.message}
                         </h1>
-                        <h1 class='details_title'>
+                        <h1 className='details_title'>
                             {this.state.drawing.title}
                         </h1>
-                        <h1 class='details_synopsis'>
+                        <h1 className='details_synopsis'>
                             {this.state.drawing.synopsis}
                         </h1>
                         <Link to={'/'}>
@@ -48,8 +48,8 @@ export default class Details extends React.Component {
                             </h1>
                         </Link>
                     </div>
-                    <div class='details_right'>
-                        <div class='details_image'>
+                    <div className='details_right'>
+                        <div className='details_image'>
                             <img src={this.state.drawing.image} />
                         </div>
                     </div>
