@@ -50,7 +50,10 @@ export default class Details extends React.Component {
                     </div>
                     <div className='details_right'>
                         <div className='details_image'>
-                            <img src={this.state.drawing.image} />
+                            <img
+                            src={this.state.drawing.image}
+                            alt={this.state.drawing.title}
+                            />
                         </div>
                     </div>
                 </div>
