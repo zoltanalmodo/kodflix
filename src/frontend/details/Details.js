@@ -19,7 +19,6 @@ export default class Details extends React.Component {
             drawing: getGallery()
                 .find(item => this.props.match.params.handle === item.id)
         });
-
     };
 
     changeMessage() {
@@ -51,8 +50,8 @@ export default class Details extends React.Component {
                     <div className='details_right'>
                         <div className='details_image'>
                             <img
-                            src={this.state.drawing.image}
-                            alt={this.state.drawing.title}
+                                src={this.state.drawing.image}
+                                alt={this.state.drawing.title}
                             />
                         </div>
                     </div>
