@@ -11,7 +11,7 @@
     "nodemon": "1.18.3"
   },
   "scripts": {
-    "start-local": "react-scripts start",
+    "start-frontend": "react-scripts start",
     "start-backend": "nodemon src/backend/app.js",
     "start-all": "npm-run-all -p start-local start-backend",
     "build": "react-scripts build",
