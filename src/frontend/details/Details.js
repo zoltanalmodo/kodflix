@@ -28,6 +28,7 @@ export default class Details extends React.Component {
     }
 
     render() {
+        let drawing = this.state.drawing;
         if (this.state.drawing) {
             return (
                 <div className='details' >
@@ -36,10 +37,10 @@ export default class Details extends React.Component {
                             {this.state.message}
                         </h1>
                         <h1 className='details_title'>
-                            {this.state.drawing.title}
+                            {drawing.title}
                         </h1>
                         <h1 className='details_synopsis'>
-                            {this.state.drawing.synopsis}
+                            {drawing.synopsis}
                         </h1>
                         <Link to={'/'}>
                             <h1 className='home_button'>
@@ -50,8 +51,8 @@ export default class Details extends React.Component {
                     <div className='details_right'>
                         <div className='details_image'>
                             <img
-                                src={this.state.drawing.image}
-                                alt={this.state.drawing.title}
+                                src={drawing.image}
+                                alt={drawing.title}
                             />
                         </div>
                     </div>
