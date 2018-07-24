@@ -1,22 +1,15 @@
-
-import dinosaur_walkman_eye from
-    '../cover/images/dinosaur_walkman_eye.png';
-import blue_ufo_plane from
-    '../cover/images/blue_ufo_plane.png';
-import elephant_king_jelly from
-    '../cover/images/elephant_king_jelly.png';
-import green_alien_spaceship from
-    '../cover/images/green_alien_spaceship.png';
-import outer_space_jelly from
-    '../cover/images/outer_space_jelly.png'
-import pink_elephant_plane from
-    '../cover/images/pink_elephant_plane.png';
+import DinosaurWalkmanEye from '../cover/images/dinosaur-walkman-eye.png';
+import BlueUfoPlane from '../cover/images/blue-ufo-plane.png';
+import ElephantKingJelly from '../cover/images/elephant-king-jelly.png';
+import GreenAlienSpaceship from '../cover/images/green-alien-spaceship.png';
+import OuterSpaceJelly from '../cover/images/outer-space-jelly.png';
+import PinkElephantPlane from '../cover/images/pink-elephant-plane.png';
 
 export default function getGallery() {
     return [
         {
-            id: 'ID_dinosaur_walkman_eye',
-            image: dinosaur_walkman_eye,
+            id: 'dinosaur-walkman-eye',
+            image: DinosaurWalkmanEye,
             title: 'Dinosaur Walkman Eye',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -25,8 +18,8 @@ export default function getGallery() {
                 unique character.`,
         },
         {
-            id: 'ID_blue_ufo_plane',
-            image: blue_ufo_plane,
+            id: 'blue-ufo-plane',
+            image: BlueUfoPlane,
             title: 'Blue Ufo Plane',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -35,8 +28,8 @@ export default function getGallery() {
                 unique character.`,
         },
         {
-            id: 'ID_elephant_king_jelly',
-            image: elephant_king_jelly,
+            id: 'elephant-king-jelly',
+            image: ElephantKingJelly,
             title: 'Elephant King Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -45,8 +38,8 @@ export default function getGallery() {
                 unique character.`,
         },
         {
-            id: 'ID_green_alien_spaceship',
-            image: green_alien_spaceship,
+            id: 'green-alien-spaceship',
+            image: GreenAlienSpaceship,
             title: 'Green Alien Spaceship',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -55,8 +48,8 @@ export default function getGallery() {
                 unique character.`,
         },
         {
-            id: 'ID_outer_space_jelly',
-            image: outer_space_jelly,
+            id: 'outer_space_jelly',
+            image: OuterSpaceJelly,
             title: 'Outer Space Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -65,8 +58,8 @@ export default function getGallery() {
                 unique character.`,
         },
         {
-            id: 'ID_pink_elephant_plane',
-            image: pink_elephant_plane,
+            id: 'pink-elephant-plane',
+            image: PinkElephantPlane,
             title: 'Pink Elephant Plane',
             synopsis:
                 `This is a drawing of three users combined together.
