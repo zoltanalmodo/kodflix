@@ -1,7 +1,6 @@
 module.exports = function getShows() {
     return [{
-            id: 'ID_dinosaur_walkman_eye',
-            // image: dinosaur_walkman_eye,
+            id: 'Dinosaur-walkman-eye',
             title: 'Dinosaur Walkman Eye',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -9,8 +8,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'ID_blue_ufo_plane',
-            // image: blue_ufo_plane,
+            id: 'Blue-ufo-plane',
             title: 'Blue Ufo Plane',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -18,8 +16,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'ID_elephant_king_jelly',
-            // image: elephant_king_jelly,
+            id: 'Elephant-king-jelly',
             title: 'Elephant King Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -27,8 +24,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'ID_green_alien_spaceship',
-            // image: green_alien_spaceship,
+            id: 'Green-alien-spaceship',
             title: 'Green Alien Spaceship',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -36,8 +32,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'ID_outer_space_jelly',
-            // image: outer_space_jelly,
+            id: 'Outer-space-jelly',
             title: 'Outer Space Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -45,8 +40,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'ID_pink_elephant_plane',
-            // image: pink_elephant_plane,
+            id: 'Pink-elephant-plane',
             title: 'Pink Elephant Plane',
             synopsis:
                 `This is a drawing of three users combined together.
