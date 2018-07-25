@@ -1,6 +1,6 @@
 module.exports = function getShows() {
     return [{
-            id: 'Dinosaur-walkman-eye',
+            id: 'dinosaur-walkman-eye',
             title: 'Dinosaur Walkman Eye',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -8,7 +8,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'Blue-ufo-plane',
+            id: 'blue-ufo-plane',
             title: 'Blue Ufo Plane',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -16,7 +16,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'Elephant-king-jelly',
+            id: 'elephant-king-jelly',
             title: 'Elephant King Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -24,7 +24,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'Green-alien-spaceship',
+            id: 'green-alien-spaceship',
             title: 'Green Alien Spaceship',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -32,7 +32,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'Outer-space-jelly',
+            id: 'outer-space-jelly',
             title: 'Outer Space Jelly',
             synopsis:
                 `This is a drawing of three users combined together.
@@ -40,7 +40,7 @@ module.exports = function getShows() {
                 but they choose to share their parts and create a
                 unique character.`,
         }, {
-            id: 'Pink-elephant-plane',
+            id: 'pink-elephant-plane',
             title: 'Pink Elephant Plane',
             synopsis:
                 `This is a drawing of three users combined together.
