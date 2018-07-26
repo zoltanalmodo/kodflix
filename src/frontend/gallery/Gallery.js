@@ -11,7 +11,6 @@ export default class Gallery extends React.Component {
                 return response.json();
             })
             .then(function (myJson) {
-                console.log(myJson);
             });
     }
 
