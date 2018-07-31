@@ -1,9 +1,9 @@
-import DinosaurWalkmanEye from '../cover/images/dinosaur-walkman-eye.png';
-import BlueUfoPlane from '../cover/images/blue-ufo-plane.png';
-import ElephantKingJelly from '../cover/images/elephant-king-jelly.png';
-import GreenAlienSpaceship from '../cover/images/green-alien-spaceship.png';
-import OuterSpaceJelly from '../cover/images/outer-space-jelly.png';
-import PinkElephantPlane from '../cover/images/pink-elephant-plane.png';
+import DinosaurWalkmanEye from '../common/images/dinosaur-walkman-eye.png';
+import BlueUfoPlane from '../common/images/blue-ufo-plane.png';
+import ElephantKingJelly from '../common/images/elephant-king-jelly.png';
+import GreenAlienSpaceship from '../common/images/green-alien-spaceship.png';
+import OuterSpaceJelly from '../common/images/outer-space-jelly.png';
+import PinkElephantPlane from '../common/images/pink-elephant-plane.png';
 
 export default function getGallery() {
     return [

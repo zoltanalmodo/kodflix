@@ -1,48 +1,48 @@
 .details {
     color: white;
-    margin: 10px 110px 0px 110px;
+    margin: 0px 0px 0px 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.details_left {
-    width: 45%;
+.details-left {
+    flex: 1;
     text-align: left;
 }
 
-.details_message {
+.details-message {
     font-size: 33px;
     color: pink;
 }
 
-.details_title {
+.details-title {
     font-size: 44px;
     color: white;
 }
 
-.details_synopsis {
+.details-content-synopsis {
     font-size: 22px;
     color: grey;
 }
 
-.home_button{
+.home-button{
     text-decoration: none;
     color: lightblue;
     font-size: 22px;
 }
 
-.home_button:hover {
+.home-button:hover {
     text-decoration: none;
     color: orange;
     cursor: pointer;
 }
 
-.details_right {
-    width: 45%;
+.details-content-cover {
+    flex: 1;
 }
 
-.details_image img {
-    max-width: 100%;
+.details-image img{
+    width: 80%;
 }
 
 /* ..................................................................... */
