@@ -30,8 +30,7 @@ export default class Details extends React.Component {
     }
 
     render() {
-        let show = this.state.show;
-        let message = this.state.message;
+        let {show, message} = this.state;
         if (show) {
             return show.id
                 ?
