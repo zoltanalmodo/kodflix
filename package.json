@@ -13,12 +13,15 @@
   },
   "scripts": {
     "start": "npm-run-all -s build _start-backend",
-    "_start-frontend": "react-scripts start",
+    "_start-frontend": "react-app-rewired start",
     "_start-backend": "nodemon src/backend/app.js",
     "start-dev": "npm-run-all -p _start-frontend _start-backend",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "react-app-rewired": "^1.5.2"
+  }
 }
