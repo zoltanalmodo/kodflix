@@ -14,9 +14,9 @@ export default class App extends React.Component {
       <div className='App'>
         <Router>
           <Switch>
-            <Route exact path="/" component={Gallery} />
-            <Route path="/NotFound" component={NotFound} />
-            <Route path="/:showId" component={Details} />
+            <Route exact path="/" componenet={Gallery} />
+            <Route path="/NotFound" componenet={NotFound} />
+            <Route path="/:showId" componenet={Details} />
           </Switch>
         </Router>
       </div>
