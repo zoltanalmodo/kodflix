@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
+import './App.less';
 import Gallery from './gallery/Gallery';
-import './gallery/Gallery.css';
+import './gallery/Gallery.less';
 import Details from './details/Details';
 import NotFound from './not_found/NotFound';
 
@@ -14,9 +14,9 @@ export default class App extends React.Component {
       <div className='App'>
         <Router>
           <Switch>
-            <Route exact path="/" componenet={Gallery} />
-            <Route path="/NotFound" componenet={NotFound} />
-            <Route path="/:showId" componenet={Details} />
+            <Route exact path="/" component={Gallery} />
+            <Route path="/NotFound" component={NotFound} />
+            <Route path="/:showId" component={Details} />
           </Switch>
         </Router>
       </div>

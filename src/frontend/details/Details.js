@@ -1,5 +1,5 @@
 import React from 'react';
-import './Details.css';
+import './Details.less';
 import { Link, Redirect } from 'react-router-dom';
 import Loading from '../common/loading/Loading.js';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Gallery.css';
+import './Gallery.less';
 import Cover from '../cover/Cover';
 import Loading from '../common/loading/Loading.js';
 
