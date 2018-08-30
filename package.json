@@ -26,5 +26,7 @@
     "eject": "react-app-rewired eject"
   },
   "proxy": "http://localhost:3001",
-  "devDependencies": {}
+  "devDependencies": {
+    "react-app-rewired": "^1.5.2"
+  }
 }
