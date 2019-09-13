@@ -4,10 +4,10 @@ import Cover from '../cover/Cover';
 import Loading from '../common/loading/Loading.js';
 
 export default class Gallery extends React.Component {
-        constructor() {
-            super();
-            this.state = { shows: [] };
-        }
+    constructor() {
+        super();
+        this.state = { shows: [] };
+    }
 
     componentDidMount() {
         fetch('/rest/shows')
